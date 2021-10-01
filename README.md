@@ -3,7 +3,7 @@ Este repositorio contiene los códigos del curso de Funciones del sistema
 
 
 Descripción:
-En este curso se introducirá a dos funciones de Java, éstas son el uso de fecha y las expresiones regulares.
+Este curso te introducirá a dos funciones de Java, éstas son el uso de fecha y las expresiones regulares.
 
 Aplicaciones:
 Este curso te llevará paso a paso a través del reconocimiento de las funciones del sistema en Java
