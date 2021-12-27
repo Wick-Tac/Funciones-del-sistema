@@ -15,5 +15,32 @@ public class App
     } else {
         System.out.println("NO");                                                                                
     }
+
+    cadena = "manuel@correo.com"; 
+    patronBuscado = ".*@hotmail.com"; 
+    pat = Pattern.compile(patronBuscado); 
+    mat = pat.matcher(cadena);                                                                      	  
+    if (mat.matches()) { 
+        System.out.println("SI"); 
+    } else { 
+        System.out.println("NO");                                                                           	  
+    }  
+
+    cadena = "manuel@correo.com"; 
+    patronBuscado = "^[^@]+@[^@]+.[a-zA-Z]{2,}$"; 
+    pat = Pattern.compile(patronBuscado); 
+    mat = pat.matcher(cadena);                                                                      	  
+    if (mat.matches()) { 
+        System.out.println("SI"); 
+    } else { 
+        System.out.println("NO");                                                                           	  
+    }  
+
+
+
+
+
     }
+    
+
 }
